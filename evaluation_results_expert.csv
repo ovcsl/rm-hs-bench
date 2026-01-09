@@ -1,0 +1,19 @@
+model_column,f2,cohen_kappa,balanced_accuracy,f1,precision,recall,accuracy,evaluated_rows,tp,tn,fp,fn
+Result - RuleAI GPT-4o,0.82,0.7,0.92,0.73,0.62,0.89,0.94,102,8,88,5,1
+Result - RuleAI Deepseek V3,0.79,0.54,0.94,0.6,0.43,1.0,0.88,102,9,81,12,0
+Result - RuleAI Mistral Large,0.78,0.63,0.91,0.67,0.53,0.89,0.92,102,8,86,7,1
+Result - Vanilla GPT-4o,0.74,0.46,0.91,0.53,0.36,1.0,0.84,102,9,77,16,0
+Result - RuleAI GPT-o1,0.73,0.63,0.86,0.67,0.58,0.78,0.93,102,7,88,5,2
+Result - CoT GPT  OSS120b,0.73,0.44,0.91,0.51,0.35,1.0,0.83,102,9,76,17,0
+Result - Vanilla GPT OSS120b,0.69,0.39,0.89,0.47,0.31,1.0,0.8,102,9,73,20,0
+Result - CoT GPT 4o,0.67,0.36,0.88,0.45,0.29,1.0,0.78,102,9,71,22,0
+Result - CoT GPT o1,0.65,0.34,0.87,0.43,0.27,1.0,0.76,102,9,69,24,0
+Result - Vanilla GPT-o1,0.63,0.31,0.86,0.41,0.26,1.0,0.75,102,9,67,26,0
+Result - Vanilla Mistral Large,0.62,0.34,0.84,0.43,0.29,0.89,0.79,102,8,73,20,1
+Result - Vanilla GPT5-mini,0.62,0.3,0.85,0.4,0.25,1.0,0.74,102,9,66,27,0
+Result - CoT Deepseek V3,0.61,0.32,0.83,0.41,0.27,0.89,0.77,102,8,71,22,1
+Result - CoT GPT5-mini,0.61,0.28,0.84,0.38,0.24,1.0,0.72,102,9,64,29,0
+Result - Vanilla Deepseek V3,0.59,0.26,0.83,0.37,0.23,1.0,0.7,102,9,62,31,0
+Result - CoT Mistral Large,0.4,0.27,0.67,0.35,0.29,0.44,0.85,102,4,83,10,5
+Result - RuleAI GPT OSS120b,0.37,0.39,0.66,0.43,0.6,0.33,0.92,102,3,91,2,6
+Result RuleAI GPT5-mini,0.0,-0.02,0.49,0.0,0.0,0.0,0.9,102,0,92,1,9
