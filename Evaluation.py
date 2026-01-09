@@ -26,9 +26,9 @@ def parse_args():
                     help="Exact Column Name of Goldstandard (0/1). All columns right of this will be evaluated.")
     ap.add_argument("-o", "--output", default=None, help="Path to Result-CSV (Default: next to input)")
     ap.add_argument("--sep", default=",", help="CSV-Delimiter (Default ',')")
-    ap.add_argument("--encoding", default="utf-8", help="Datei-Encoding (z. B. 'utf-8', 'latin1', 'utf-8-sig')")
+    ap.add_argument("--encoding", default="utf-8", help="File-Encoding (z. B. 'utf-8', 'latin1', 'utf-8-sig')")
     ap.add_argument("--include-empty-as-negative", action="store_true",
-                    help="Leere/fehlende Vorhersagen als 0/N behandeln (Default: Zeilen mit fehlender Vorhersage ignorieren)")
+                    help="Treat empty/missing predictions as 0/N (Default: ignore rows with missing predictions)")
     return ap.parse_args()
 
 def make_default_output(input_path):
@@ -189,3 +189,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
