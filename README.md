@@ -1,6 +1,6 @@
 # rm-hs-bench: Supplementary Material
 
-This repository contains supplementary data, evaluation metrics, and reproducibility scripts for the paper **"Applying Neuro-Symbolic AI with Rulemapping"**.
+This repository contains supplementary data, evaluation metrics, and reproducibility scripts for the paper **"Beyond Imperfect Alternatives with Rulemapping: A Neuro-Symbolic Case Study on Online Hate Speech"**.
 
 ## 📂 Repository Contents
 
@@ -29,6 +29,10 @@ These files contain the pre-computed performance summaries (Precision, Recall, F
 
 ### 3. Reproducibility (`Evaluation.py`)
 *   **`Evaluation.py`**: A Python script used to calculate the performance metrics from the result files. It computes Accuracy, F1, F2, Balanced Accuracy, and Cohen's Kappa.
+
+### 4. Bootstrap Evaluation Matrix
+*   **`confidence_interval_results.md`**: Reports the 95% bootstrap confidence intervals (based on 10,000 resamples) for the performance differences observed on the lay consensus dataset.
+
 
 ## 🚀 Usage
 
